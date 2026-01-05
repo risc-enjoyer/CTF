@@ -16,7 +16,7 @@ int main(void){
 
 		if(result == 1) read(0, ptr, 32);
 		else if(result == 2) printf("%p\n", &ptr);
-		else if(result == 3) if(obj.limit < 2) *(&var_8) = *(__int128 *)ptr;
+		else if(result == 3) if(limit < 2) *(&ow) = *(__int128 *)ptr;
 		else if(result == 0){
 			if(!ptr) exit(1);
 			free(ptr);
